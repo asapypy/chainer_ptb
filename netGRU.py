@@ -1,0 +1,1 @@
+/home/asakawa/study/2016chainer-1.6.1/examples/ptb/netGRU.py
