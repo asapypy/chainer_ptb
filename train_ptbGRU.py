@@ -37,7 +37,7 @@ n_epoch = 39   # number of epochs
 n_units = 650  # number of units per layer
 batchsize = 20   # minibatch size
 bprop_len = 35   # length of truncated BPTT
-grad_clip = 5    # gradient norm threshold to clip
+grad_clip = 1    # gradient norm threshold to clip
 
 # Prepare dataset (preliminary download dataset by ./download.py)
 vocab = {}

@@ -32,3 +32,23 @@ rnnlmGRU.state
 --------------
 上記の状態ファイル
 
+
+まず最初にすべきこと
+===================
+Chainer のインストールです。
+
+> pip install chainer
+
+してください。そうしないと話が始まりません。GRU 版の ptb を開始するには
+
+> python train_ptbGRU.py
+
+です。訓練済のファイルから始めるには
+
+> python tran_ptgGRU.py --initmodel rnnlmGRU.model --resume rnnlmGRU.state
+
+です。ですが，ソースコードのとおりこれはサンプルプログラムです。
+このようにしても必ず決まった回数だけ訓練してしまいます。
+PFN の提供しているサンプルコードですので，自分で改造する必要があります。
+ご了承ください。
+
