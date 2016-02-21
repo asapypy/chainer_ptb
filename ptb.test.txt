@@ -1,1 +1,0 @@
-/home/asakawa/study/2011Microsoft_RNN/ptb.test.txt
